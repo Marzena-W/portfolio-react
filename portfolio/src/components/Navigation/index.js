@@ -1,15 +1,21 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import './style.css';
 
-function Navbar() {
+
+function BasicExample() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link className="navbar-brand" to="/">
-                <a href="/" clasName="logo">Maggie Wilk</a>
-            </Link>
-            <div>
-                <ul className="navbar-nav">
+        <Navbar bg="light" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home">Maggie Wilk</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                    <ul className="navbar-nav">
                     <li className="nav-item">
                         <NavLink to="/" end
                             className={({ isActive }) =>
@@ -31,9 +37,11 @@ function Navbar() {
                         </NavLink>
                     </li>
                 </ul>
-            </div>
-        </nav>
-    )
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    );
 }
 
-export default Navbar;
+export default BasicExample;
