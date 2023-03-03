@@ -18,7 +18,7 @@ function About() {
             innovative UI/UX solutions for the web. I started my journey as a
             graphic designer while studying physics, and I was completely hooked on
             the world of computers. With time I've built my passion for coding and
-            I've begun studying web development. I want to focus on creating
+            I've begun studying web development. I'm focused on creating
             accessible and user-friendly digital experiences. </p>
         </div>
       </div>
