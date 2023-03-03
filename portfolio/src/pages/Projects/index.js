@@ -2,7 +2,6 @@ import React from 'react';
 import Wrapper from "../../components/Wrapper";
 import Project from "../../components/Project";
 import projects from "../../projects.json";
-import myImage from '../../images/portfolio.jpg';
 import './style.css';
 
 function Projects() {
@@ -13,7 +12,7 @@ function Projects() {
       {projects.map(function(project) {
         return <Project
           key={project.id}
-          name={project.name}
+          title={project.title}
           image={project.image}
           deployed={project.deployed}
           github={project.github}

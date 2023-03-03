@@ -1,7 +1,7 @@
 .projects-header {
   font-size: 20px;
   font-weight: bold;
-  padding: 30px 30px;
+  padding: 70px 30px 30px 30px;
   margin-bottom: -10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -10,30 +10,25 @@
 }
 
 .card {
-  background: #fff;
   border-radius: 2px;
   height: 325px;
   width: 350px;
   margin: 1rem;
-  position: relative;
-  text-align: left;
+  margin-top: 2rem;
 }
 
 .card>.img-container {
   height: 60%;
-  overflow: hidden;
-  text-align: center;
-  background: #e1e1e1;
 }
 
 .card>.img-container>img {
-  width: 60%
+  width: 100%
 }
 
 .card>.content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  font-size: 14px;
 }
 
 .card>.content>ul {
@@ -42,4 +37,9 @@
 
 .card>.content>ul>li {
   margin-top: 18px;
+
+}
+.card>.content>ul>li>a {
+  text-decoration: none !important;
+  color: black;
 }

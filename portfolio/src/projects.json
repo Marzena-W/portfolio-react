@@ -1,45 +1,45 @@
 [
     {
       "id": 1,
-      "title": "Portfolio",
+      "title": "Park Time App",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "portfolio.jpg"
+      "image": "parktime.jpg"
     },
     {
       "id": 2,
-      "title": "Park Time",
-      "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/park-time-app",
+      "title": "Portfolio",
+      "deployed":"https://marzena-w.github.io/portfolio-bootstrap/",
+      "github": "https://github.com/Marzena-W/portfolio-bootstrap",
       "image": "portfolio.jpg"
     },
     {
       "id": 3,
-      "title": "ReadeMe Generator",
-      "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/readme-generator",
-      "image": "portfolio.jpg"
+      "title": "Weather Dashboard",
+      "deployed":"https://marzena-w.github.io/weather-dashboard/",
+      "github": "https://github.com/Marzena-W/weather-dashboard",
+      "image": "weatherdashboard.jpg"
     },
     {
       "id": 4,
-      "title": "Park Time",
-      "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "portfolio.jpg"
+      "title": "Daily Planner",
+      "deployed":"https://marzena-w.github.io/planner-app/",
+      "github": "https://github.com/Marzena-W/planner-app",
+      "image": "planner.jpg"
     },
     {
       "id": 5,
-      "title": "Park Time",
-      "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "portfolio.jpg"
+      "title": "Password Generatr",
+      "deployed":"https://marzena-w.github.io/password-generator/",
+      "github": "https://github.com/Marzena-W/password-generator",
+      "image": "password.jpg"
     },
     {
       "id": 6,
-      "title": "Park Time",
-      "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "portfolio.jpg"
+      "title": "Portfolio HTML",
+      "deployed":"https://marzena-w.github.io/portfolio-html/",
+      "github": "https://github.com/Marzena-W/portfolio-html",
+      "image": "portfolio2.jpg"
     }
   ]
   
