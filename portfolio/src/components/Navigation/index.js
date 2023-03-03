@@ -8,7 +8,7 @@ import './style.css';
 
 function Navigation() {
     return (
-        <Navbar className="nav-style" expand="lg">
+        <Navbar className="nav-style" expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand className="logo" href="#about">Maggie Wilk</Navbar.Brand>
 

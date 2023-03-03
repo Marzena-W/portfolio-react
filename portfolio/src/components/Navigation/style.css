@@ -13,3 +13,11 @@
 .logo:focus {
     color: white;
 } */
+
+.nav-link {
+    color: white !important;
+}
+
+.basic-navbar-nav {
+    
+}
