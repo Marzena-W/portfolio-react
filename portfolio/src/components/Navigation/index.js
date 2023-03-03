@@ -10,7 +10,12 @@ function Navigation() {
     return (
         <Navbar className="nav-style" expand="lg" variant="dark">
             <Container>
-                <Navbar.Brand className="logo" href="#about">Maggie Wilk</Navbar.Brand>
+                <Navbar.Brand className="logo" href="#about">
+                    <NavLink to="/" end
+                        className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'}> Maggie Wilk
+                    </NavLink>
+                </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

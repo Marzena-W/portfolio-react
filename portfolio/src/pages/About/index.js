@@ -4,9 +4,7 @@ import './style.css';
 
 function About() {
   return (
-    <div>
-      <div className='wrapper'>
-
+      <div>
         <div className='headers'>
           <h2 className='main-header'> Hi, I'm Maggie</h2>
           <p className="about-header">welcome to my web developer portfolio</p>
@@ -22,7 +20,6 @@ function About() {
             accessible and user-friendly digital experiences. </p>
         </div>
       </div>
-    </div>
   )
 }
 

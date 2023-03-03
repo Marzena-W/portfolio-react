@@ -1,45 +1,45 @@
 [
     {
       "id": 1,
-      "title": "Park Time",
+      "title": "Portfolio",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "image": "portfolio.jpg"
     },
     {
       "id": 2,
       "title": "Park Time",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "image": "portfolio.jpg"
     },
     {
       "id": 3,
-      "title": "Park Time",
+      "title": "ReadeMe Generator",
       "deployed":"https://marzena-w.github.io/park-time-app/",
-      "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "github": "https://github.com/Marzena-W/readme-generator",
+      "image": "portfolio.jpg"
     },
     {
       "id": 4,
       "title": "Park Time",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "image": "portfolio.jpg"
     },
     {
       "id": 5,
       "title": "Park Time",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "image": "portfolio.jpg"
     },
     {
       "id": 6,
       "title": "Park Time",
       "deployed":"https://marzena-w.github.io/park-time-app/",
       "github": "https://github.com/Marzena-W/park-time-app",
-      "image": "../../images/portfolio"
+      "image": "portfolio.jpg"
     }
   ]
   

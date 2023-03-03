@@ -2,10 +2,11 @@ import React from 'react';
 import './style.css';
 
 function Project(props) {
+  const image = require(`../../images/${props.image}`)
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.title} src={props.image} />
+        <img alt={props.title} src={image} />
       </div>
       <div className="content">
         <ul>

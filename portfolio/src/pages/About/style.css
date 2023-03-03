@@ -1,11 +1,7 @@
-.wrapper {
-    margin: 30px;
-}
-
 .headers {
     text-align: center;
-    margin-bottom: 30px;
-    border-bottom: solid black 1px;
+    margin-bottom: 50px;
+    border-bottom: solid black 2px;
 }
 
 .main-header {
