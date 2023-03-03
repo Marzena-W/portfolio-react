@@ -18,14 +18,14 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/" end
+                        <NavLink to="/projects" end
                             className={({ isActive }) =>
                                 isActive ? 'nav-link active' : 'nav-link'}> Projects
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/" end
+                        <NavLink to="/contact" end
                             className={({ isActive }) =>
                                 isActive ? 'nav-link active' : 'nav-link'}> Contact
                         </NavLink>
