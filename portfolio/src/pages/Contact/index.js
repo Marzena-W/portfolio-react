@@ -1,16 +1,71 @@
 import React from 'react';
-// import './style.css';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import './style.css';
 
 function Contact() {
   return (
     <div>
-      <h2>Hi, I'm Maggie</h2>
-      <p className="about-header">welcome to my web developer portfolio</p>
-      <p className="paragraph">There are many variations of passages of Lorem Ipsum available, but the 
-        majority have suffered alteration in some form, by injected humour, or 
-        randomised words which don't look even slightly believable. If you are 
-        going to use a passage of Lorem Ipsum, you need to be sure there isn't 
-        anything embarrassing hidden in the middle of text. </p>
+      <div className='main-para'>
+        <p className="contact-header">Drop me a line.</p>
+        <p className="para">if you have a project that you would like to discuss,
+          or if you simply have some questions, I would love to
+          hear from you. Please feel free to send me an email,
+          or use the contact form. I will do my best to get back
+          to you as soon as possible. I look forward to hearing
+          from you soon!
+        </p>
+      </div>
+
+
+      {/* <Form>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Text className="text-muted">
+            We'll never share your email with anyone else.
+          </Form.Text>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Check me out" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form> */}
+
+      <div className='centered'>
+        <div className="form col-lg-6 col-md-6 col-sm-12 contact-form">
+          <form id="contact-me">
+            <div className="form-group">
+              <input className="form-control form-control-sm" type="text" placeholder="Your name" id="name"></input>
+            </div>
+
+            <div className="form-group">
+              <input className="form-control form-control-sm" type="text" placeholder="Your email" id="email"></input>
+            </div>
+
+            <div className="form-group">
+              <textarea className="form-control form-control-sm" id="exampleFormControlTextarea1" type="text"
+                placeholder="Message" rows="3" ></textarea>
+            </div>
+
+            <button type="submit" className="btn btn-primary custom-button button-form">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div className='contact-buttons'>
+        <button className='buttons' type="button">GitHub</button>
+        <button className='buttons' type="button">LinkedIn</button>
+        <button className='buttons' type="button">Email</button>
+        <button className='buttons' type="button">CV</button>
+      </div>
     </div>
   )
 }

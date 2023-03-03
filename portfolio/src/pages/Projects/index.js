@@ -7,7 +7,8 @@ import './style.css';
 function Projects() {
   return (
     <div className='projects-bckg'>
-      <p className="projects-header">Here are some projects I've worked on so far</p>
+      <p className="projects-header">Portfolio</p>
+      <p className="projects-subheader">Here are some projects I've worked on so far</p>
       <Wrapper>
       {projects.map(function(project) {
         return <Project
