@@ -1,7 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './style.css';
 
 function Contact() {
+  const [formState, setFormState] = useState({
+    name:"",
+    email:"",
+    message:"",
+  })
+  function handleSubmit(event) {
+    event.preventDefault()
+    console.log(formState);
+    window.location.href="mailTo:marzena.m.wilk@gmail.com?subject="+formState.name+"&body="+formState.message
+  }
+
   return (
     <div>
       <div className='main-para'>
@@ -15,30 +26,30 @@ function Contact() {
 
       <div className='centered'>
         <div className="form col-lg-6 col-md-6 col-sm-12 contact-form">
-          <form id="contact-me">
+          <form onSubmit={handleSubmit} id="contact-me">
             <div className="form-group">
-              <input className="form-control form-control-sm" type="text" placeholder="Your name" id="name"></input>
+              <input required value={formState.name} onChange={(event) => setFormState({...formState, name: event.target.value})} className="form-control form-control-sm" type="text" placeholder="Your name" id="name"></input>
             </div>
 
             <div className="form-group">
-              <input className="form-control form-control-sm" type="text" placeholder="Your email" id="email"></input>
+              <input type="email" required value={formState.email} onChange={(event) => setFormState({...formState, email: event.target.value})} className="form-control form-control-sm" placeholder="Your email" id="email"></input>
             </div>
 
             <div className="form-group">
-              <textarea className="form-control form-control-sm" id="exampleFormControlTextarea1" type="text"
+              <textarea required value={formState.message} onChange={(event) => setFormState({...formState, message: event.target.value})} className="form-control form-control-sm" id="exampleFormControlTextarea1" type="text"
                 placeholder="Message" rows="3" ></textarea>
             </div>
 
-            <button type="submit" className="btn btn-primary custom-button button-form">Submit</button>
+            <input type="submit" className="btn btn-primary custom-button button-form"/>
           </form>
         </div>
       </div>
 
       <div className='contact-buttons'>
-        <button className='buttons' type="button">GitHub</button>
-        <button className='buttons' type="button">LinkedIn</button>
-        <button className='buttons' type="button">Email</button>
-        <button className='buttons' type="button">CV</button>
+      <a href="https://github.com/Marzena-W"> <button className='buttons' type="button"> GitHub</button></a>
+      <a href="https://github.com/Marzena-W"><button className='buttons' type="button">LinkedIn</button></a>
+      <a href="https://github.com/Marzena-W"><button className='buttons' type="button">Email</button></a>
+      <a href="/cv"><button className='buttons' type="button">CV</button></a>
       </div>
     </div>
   )

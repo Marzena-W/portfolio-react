@@ -14,10 +14,10 @@ function Project(props) {
             <strong>Project title:</strong> {props.title}
           </li>
           <li>
-            <strong>Deployed application:</strong> <a href="#">{props.deployed}</a>
+            <strong>Deployed application:</strong> <a href={props.deployed}>{props.deployed}</a>
           </li>
           <li>
-            <strong>GitHub repository:</strong> <a href="#">{props.github}</a>
+            <strong>GitHub repository:</strong> <a href={props.github}>{props.github}</a>
           </li>
         </ul>
       </div>
