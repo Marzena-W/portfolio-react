@@ -33,12 +33,11 @@ function Contact() {
             </div>
 
             <div className="form-group">
-              <input type="email" required value={formState.email} onChange={(event) => setFormState({...formState, email: event.target.value})} className="form-control form-control-sm" placeholder="Your email" id="email"></input>
+              <input required value={formState.email} onChange={(event) => setFormState({...formState, email: event.target.value})} className="form-control form-control-sm" type="email" placeholder="Your email" id="email"></input>
             </div>
 
             <div className="form-group">
-              <textarea required value={formState.message} onChange={(event) => setFormState({...formState, message: event.target.value})} className="form-control form-control-sm" id="exampleFormControlTextarea1" type="text"
-                placeholder="Message" rows="3" ></textarea>
+              <textarea required value={formState.message} onChange={(event) => setFormState({...formState, message: event.target.value})} className="form-control form-control-sm" type="text" id="exampleFormControlTextarea1" placeholder="Message" rows="3" ></textarea>
             </div>
 
             <input type="submit" className="btn btn-primary custom-button button-form"/>
